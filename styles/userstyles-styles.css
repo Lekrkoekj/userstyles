@@ -11,6 +11,9 @@ button.normal {
     margin: 20px;
     background: #64b752;
 }
+nav li:hover {
+    border-top-color: #64b752;
+}
 button.style-preview {
     background: #64b752;
     color: white;

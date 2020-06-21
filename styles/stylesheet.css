@@ -43,7 +43,7 @@ nav .logo img {
     height: 62px;
 }
 nav li:hover {
-    border-top-color: #5facea
+    border-top-color: #5facea;
 }
 nav ul {
     list-style-type: none;
