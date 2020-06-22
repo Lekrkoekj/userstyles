@@ -44,3 +44,23 @@ button.style-preview img {
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
 }
+@media only screen and (max-width: 1420px) {
+    .homepage-grid {
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+}
+@media only screen and (max-width: 1150px) {
+    .homepage-grid {
+        grid-template-columns: calc(100% / 3) calc(100% / 3) calc(100% / 3);
+    }
+}
+@media only screen and (max-width: 870px) {
+    .homepage-grid {
+        grid-template-columns: 50% 50%;
+    }
+}
+@media only screen and (max-width: 660px) {
+    .homepage-grid {
+        grid-template-columns: 100%;
+    }
+}
